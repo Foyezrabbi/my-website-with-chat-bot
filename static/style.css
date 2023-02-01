@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #EAEFF5;
+}
+#logo{
+    display: inline;
+
+    width: 50px;
+    height: 60px;
+    
+}
+#nTitle{
+    display: inline;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#title{
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+}
+
+#main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: blueviolet;
+    color: white;
+
+}
+#li{
+    display: inline;
+    /* display: flex;
+    flex-direction: row; */
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.nav{
+    margin: 0 0 0 20px ;
+   display: inline;
+    font-size: 17px;
+}
+.navLink{
+    text-decoration: none;
+    color: rgb(255, 243, 243);
+    display: inline;
+
+
+}
+#inTitle{
+        font-size: 27px;
+  font-family:Geneva, Verdana, sans-serif;
+    /* font-weight: 900; */
+    
+    margin: 20px 0 0 80px ;
+}
+#moreBtn{
+    margin: 10px 0 0 80px;
+padding: 10px;
+font-size: 16px;
+background-color: rgb(20, 66, 99);
+color: wheat;
+border: none;
+border-radius: 20px;
+box-shadow: 10px 10px 30px 5px grey;
+}
+
+#png{
+    margin: 0px 0 0 80px ;
+    /* display: inline; */
+    height: 200px;
+    width: 250px;
+}
+@media only screen and (max-width: 600px) {
+    #main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: blueviolet;
+        color: white;
+    }
+}
+@media only screen and (max-width: 370px) {
+    #png{
+        margin: 0px 0 0 40px ;
+        /* display: inline; */
+        height: 200px;
+        width: 250px;
+    }
+}

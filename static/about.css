@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #F48FB1;
+}
+#logo{
+    display: inline;
+
+    width: 50px;
+    height: 60px;
+    
+}
+#nTitle{
+    display: inline;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#title{
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+}
+
+#main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: blueviolet;
+    color: white;
+
+}
+#li{
+    display: inline;
+    /* display: flex;
+    flex-direction: row; */
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.nav{
+    margin: 0 0 0 20px ;
+   display: inline;
+    font-size: 17px;
+}
+.navLink{
+    text-decoration: none;
+    color: rgb(255, 243, 243);
+    display: inline;
+
+
+}
+#inTitle{
+        font-size: 27px;
+  font-family:Geneva, Verdana, sans-serif;
+    /* font-weight: 900; */
+    
+    margin: 20px 0 0 80px ;
+}
+#mtitle{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 50px;
+}
+#container{
+    font-size: large;
+    font-family: 'Oswald', sans-serif;
+    margin:30px 300px 0px 50px;
+    display: flex;
+    flex-direction: column;
+}
+#png{
+    margin: 0px 0px 0px 80px ;
+    /* display: inline; */
+    height: 200px;
+    width: 250px;
+}
+@media only screen and (max-width: 620px) {
+
+    #mtitle{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin: 30px 10px 10px 40px;
+    }
+    #container{
+        font-size: large;
+        font-family: 'Oswald', sans-serif;
+        margin:30px 40px 0px 50px;
+        display: flex;
+        flex-direction: column;
+        overflow-x : hidden;  
+      }
+}
+@media only screen and (max-width: 600px ) {
+    #main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: blueviolet;
+        color: white;
+    }
+}
